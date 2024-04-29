@@ -1,0 +1,86 @@
+body {
+    background-color: #004466;
+    margin: 0;
+    padding: 0;
+}
+
+.fidget {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    height: 80px;
+    width: 80px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle_1, .circle_2, .circle_3 {
+    position: relative;
+    background-color: transparent;
+    border: 10px solid #f2f2f2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.circle_1 {
+    bottom: 55px;
+    left: 5px;
+}
+
+.circle_2 {
+    left: 60px;
+    bottom: 40px;
+}
+
+.circle_3 {
+    right: 50px;
+    bottom: 110px;
+}
+
+/* ----- */
+.inner_1, .inner_2, .inner_3 {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 10px;
+    top: 10px
+}
+
+.inner_1 {
+    background-color: #fc8f2e;
+}
+
+.inner_2 {
+    background-color: brown;
+}
+
+.inner_3 {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
